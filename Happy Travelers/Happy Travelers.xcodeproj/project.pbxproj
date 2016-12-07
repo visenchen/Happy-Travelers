@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		664213F61DF86820002B3916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664213F51DF86820002B3916 /* AppDelegate.swift */; };
-		664213F81DF86820002B3916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664213F71DF86820002B3916 /* ViewController.swift */; };
 		664213FB1DF86820002B3916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664213F91DF86820002B3916 /* Main.storyboard */; };
 		664213FD1DF86820002B3916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664213FC1DF86820002B3916 /* Assets.xcassets */; };
 		664214001DF86820002B3916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664213FE1DF86820002B3916 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		664213F21DF86820002B3916 /* Happy Travelers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Travelers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664213F51DF86820002B3916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		664213F71DF86820002B3916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		664213FA1DF86820002B3916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		664213FC1DF86820002B3916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664213FF1DF86820002B3916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,45 @@
 		664213F41DF86820002B3916 /* Happy Travelers */ = {
 			isa = PBXGroup;
 			children = (
+				664214071DF86E2E002B3916 /* classes */,
 				664213F51DF86820002B3916 /* AppDelegate.swift */,
-				664213F71DF86820002B3916 /* ViewController.swift */,
 				664213F91DF86820002B3916 /* Main.storyboard */,
 				664213FC1DF86820002B3916 /* Assets.xcassets */,
 				664213FE1DF86820002B3916 /* LaunchScreen.storyboard */,
 				664214011DF86820002B3916 /* Info.plist */,
 			);
 			path = "Happy Travelers";
+			sourceTree = "<group>";
+		};
+		664214071DF86E2E002B3916 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				664214081DF86E2E002B3916 /* 个人 */,
+				664214091DF86E2E002B3916 /* 共有 */,
+				6642140A1DF86E2E002B3916 /* 设置 */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		664214081DF86E2E002B3916 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		664214091DF86E2E002B3916 /* 共有 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "共有";
+			sourceTree = "<group>";
+		};
+		6642140A1DF86E2E002B3916 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664213F81DF86820002B3916 /* ViewController.swift in Sources */,
 				664213F61DF86820002B3916 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
